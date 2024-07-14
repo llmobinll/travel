@@ -7,74 +7,81 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="part1">
-      <div class="home-shadow"></div>
+    <div class="home_bg">
+      <img src="./assest/Img/home-bg.jpg" alt="" />
+    </div>
+    <div class="home-shadow"></div>
 
-      <div class="header">
-        <div class="navigation">
-          <a href="#" class="nav-logo">Travel</a>
-          <div class="nav-menu">
-            <ul class="nav">
-              <li class="nav-list">
-                <a href="#home" class="nav-item">Home</a>
-              </li>
-              <li class="nav-list">
-                <a href="#about" class="nav-item">About</a>
-              </li>
-              <li class="nav-list">
-                <a href="#popular" class="nav-item">Popular</a>
-              </li>
-              <li class="nav-list">
-                <a href="#explore" class="nav-item">Explore</a>
-              </li>
-            </ul>
-          </div>
+    <div class="header">
+      <div class="navigation">
+        <a href="#" class="nav-logo" id="button">Travel</a>
+        <div class="nav-menu">
+          <ul class="nav">
+            <li class="nav-list">
+              <a href="#" class="nav-item underline" data-filter="home">Home</a>
+            </li>
+            <li class="nav-list">
+              <a href="#about" class="nav-item" data-filter="about">About</a>
+            </li>
+            <li class="nav-list">
+              <a href="#popular" class="nav-item" data-filter="popular"
+                >Popular</a
+              >
+            </li>
+            <li class="nav-list">
+              <a href="#explore" class="nav-item" data-filter="explore"
+                >Explore</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <main class="container">
-        <div class="section1">
-          <div class="welcome">
-            <h3>Welcome To Travel</h3>
-          </div>
-          <div class="title">
-            <h1>Explore</h1>
-            <h1>The World</h1>
-          </div>
-          <div class="text">
-            <p>
-              Live the trips exploring the world, discover paradises, islands,
-              mountains and much more, get your trip now.
-            </p>
-          </div>
-          <div class="first-button">
-            <p>Start Your Journey</p>
-            <img src="./assest/Img/next.png" alt="" />
-          </div>
+    </div>
+
+    <main class="container">
+      <div class="section1">
+        <div class="welcome">
+          <h3>Welcome To Travel</h3>
         </div>
-        <div class="cards">
-          <article class="place">
-            <img src="./assest/Img/home-beach.jpg" alt="" class="card" />
-            <span>Spain</span>
-            <div class="shadow"></div>
-          </article>
-          <article class="place">
-            <img src="./assest/Img/home-mountain.jpg" alt="" class="card" />
-            <span>Italy</span>
-            <div class="shadow"></div>
-          </article>
-          <article class="place">
-            <img src="./assest/Img/home-lake.jpg" alt="" class="card" />
-            <span>Iceland</span>
-            <div class="shadow"></div>
-          </article>
-          <article class="place">
-            <img src="./assest/Img/home-trees.jpg" alt="" class="card" />
-            <span>Croatia</span>
-            <div class="shadow"></div>
-          </article>
+        <div class="title">
+          <h1>Explore</h1>
+          <h1>The World</h1>
         </div>
-      </main>
+        <div class="text">
+          <p>
+            Live the trips exploring the world, discover paradises, islands,
+            mountains and much more, get your trip now.
+          </p>
+        </div>
+        <div class="first-button">
+          <p>Start Your Journey</p>
+          <img src="./assest/Img/next.png" alt="" />
+        </div>
+      </div>
+      <div class="cards">
+        <article class="place">
+          <img src="./assest/Img/home-beach.jpg" alt="" class="card" />
+          <span>Spain</span>
+          <div class="shadow"></div>
+        </article>
+        <article class="place">
+          <img src="./assest/Img/home-mountain.jpg" alt="" class="card" />
+          <span>Italy</span>
+          <div class="shadow"></div>
+        </article>
+        <article class="place">
+          <img src="./assest/Img/home-lake.jpg" alt="" class="card" />
+          <span>Iceland</span>
+          <div class="shadow"></div>
+        </article>
+        <article class="place">
+          <img src="./assest/Img/home-trees.jpg" alt="" class="card" />
+          <span>Croatia</span>
+          <div class="shadow"></div>
+        </article>
+      </div>
     </main>
+
     <main class="part2" id="about">
       <div class="description">
         <h1>Learn More</h1>
@@ -90,8 +97,9 @@
         </div>
       </div>
       <div class="description_img">
-        <img src="./assest/Img/about-beach.jpg" alt="" />
+        <img class="img-part2" src="./assest/Img/about-beach.jpg" alt="" />
       </div>
     </main>
+    <script src="./assest/Js/script.js"></script>
   </body>
 </html>
