@@ -235,3 +235,94 @@ body {
   font-weight: normal;
   font-size: 16px;
 }
+
+.part3 {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  text-align: center;
+  justify-content: center;
+}
+.part3 h1 {
+  font-size: 3rem;
+}
+.img-part3 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.canada {
+  background-image: url("../Img/Canada.jpg");
+  background-position: center;
+}
+.irland {
+  background-image: url("../Img/Irland.jpg");
+}
+.italy {
+  background-image: url("../Img/Garda\ lake.jpg");
+}
+.netherland {
+  background: url("../Img/pexels-jean-carlo-emer-1499369-2901480.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rome {
+  background: url("../Img/pexels-mark-neal-201020-2225439.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide {
+  position: relative;
+  height: 65vh;
+  flex: 0.15;
+  border-radius: 60px;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 700ms ease-in;
+}
+.slide span {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  font-weight: bold;
+  margin: 0;
+  opacity: 0;
+  font-size: 20px;
+}
+.slide h6 {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  font-size: 10px;
+  margin: 0;
+  opacity: 0;
+}
+@media (max-width: 480px) {
+  .slide:nth-of-type(4),
+  .slide:nth-of-type(5) {
+    display: none;
+  }
+}
+
+/* Java script */
+.slide.active {
+  flex: 5;
+}
+.slide.active span {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+.slide.active h6 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
