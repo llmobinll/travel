@@ -40,3 +40,16 @@ const removeCurrentActives = () => {
     slide.classList.remove("active");
   });
 };
+
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  const navbarHeight = document.querySelector(".navigation").offsetHeight;
+  if (element) {
+    const more = 60;
+    const elementPosition = element.offsetTop - navbarHeight - more;
+    window.scrollTo({
+      top: elementPosition,
+      behavior: "smooth",
+    });
+  }
+};

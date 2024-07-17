@@ -44,6 +44,7 @@ body {
 }
 .navigation a {
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-list {
   position: relative;
@@ -61,7 +62,7 @@ body {
 }
 .container {
   position: relative;
-  margin: 100px 0 0 320px;
+  margin: 90px 0 0 320px;
   opacity: 0;
   transform: translateY(-80px);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
@@ -85,7 +86,7 @@ body {
 .first-button {
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 25px;
   background-color: rgb(50, 47, 47);
   width: 250px;
   height: 60px;
@@ -178,8 +179,8 @@ body {
   border-right: transparent;
 }
 .part2 {
-  margin-top: 550px;
-  margin-bottom: 300px;
+  margin-top: 400px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,7 +238,7 @@ body {
 }
 
 .part3 {
-  margin-top: 250px;
+  margin-top: 400px;
   margin-bottom: 250px;
   text-align: center;
   justify-content: center;
@@ -250,7 +251,7 @@ body {
 
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .bg-img {
   background-position: center;
@@ -316,7 +317,7 @@ body {
 
 /* Java script */
 .slide.active {
-  flex: 5;
+  flex: 1;
 }
 .slide.active span {
   opacity: 1;

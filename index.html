@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="home_bg">
+    <div class="home_bg" id="first-pg">
       <img src="./assest/Img/home-bg.jpg" alt="" />
     </div>
     <div class="home-shadow"></div>
@@ -18,18 +18,34 @@
         <div class="nav-menu">
           <ul class="nav">
             <li class="nav-list">
-              <a href="#" class="nav-item underline" data-filter="home">Home</a>
+              <a
+                onclick="scrollToSection('first-pg')"
+                class="nav-item underline"
+                data-filter="home"
+                >Home</a
+              >
             </li>
             <li class="nav-list">
-              <a href="#about" class="nav-item" data-filter="about">About</a>
+              <a
+                onclick="scrollToSection('about')"
+                class="nav-item"
+                data-filter="about"
+                >About</a
+              >
             </li>
             <li class="nav-list">
-              <a href="#popular" class="nav-item" data-filter="popular"
+              <a
+                onclick="scrollToSection('popular')"
+                class="nav-item"
+                data-filter="popular"
                 >Popular</a
               >
             </li>
             <li class="nav-list">
-              <a href="#explore" class="nav-item" data-filter="explore"
+              <a
+                onclick="scrollToSection('explore')"
+                class="nav-item"
+                data-filter="explore"
                 >Explore</a
               >
             </li>
