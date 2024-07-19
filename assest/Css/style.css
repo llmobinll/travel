@@ -260,7 +260,7 @@ body {
 }
 .canada {
   background-image: url("../Img/Canada.jpg");
-  background-position: center;
+  background-position: bottom;
 }
 .irland {
   background-image: url("../Img/Irland.jpg");
@@ -326,4 +326,11 @@ body {
 .slide.active h6 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+.part4 {
+  margin-top: 300px;
+  margin-bottom: 200px;
+  background: url("../Img/explore-beach.jpg");
+  height: 80vh;
 }
