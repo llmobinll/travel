@@ -440,6 +440,7 @@ body {
   background-color: rgb(20, 19, 19);
   width: 100%;
   height: 60vh;
+  position: relative;
 }
 .text-part6 {
   display: flex;
@@ -453,8 +454,67 @@ body {
   justify-content: center;
   align-items: center;
   column-gap: 140px;
+  font-size: 20px;
+}
+.other h6 {
+  color: gray;
+  transition: all 0.3s;
+}
+.other h6:hover {
+  color: #fff;
 }
 .other div {
   display: grid;
   row-gap: 20px;
+}
+.icons {
+  position: absolute;
+  bottom: 80px;
+  right: 300px;
+}
+.icons img {
+  width: 25px;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+.top-button {
+  background-color: rgb(34, 33, 33);
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.top-button:hover {
+  transform: scale(1.1);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background: #231c1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3b3b3b #242121;
 }
