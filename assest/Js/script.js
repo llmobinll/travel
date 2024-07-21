@@ -53,3 +53,20 @@ const scrollToSection = (sectionId) => {
     });
   }
 };
+// document.addEventListener("DOMContentLoaded", () => {
+//   OverlayScrollbars(document.getElementById("scrollableBody"), {
+//     className: "os-theme-dark",
+//     sizeAutoCapable: true,
+//     paddingAbsolute: true,
+//     scrollbars: {
+//       clickScrolling: true,
+//       autoHide: "leave",
+//       theme: "os-theme-dark",
+//       custom: {
+//         backgroundColor: "#555",
+//         borderRadius: "10px",
+//       },
+//     },
+//   });
+// });
+// console.log(typeof OverlayScrollbars); // باید "function" برگرداند
