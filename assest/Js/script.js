@@ -53,20 +53,20 @@ const scrollToSection = (sectionId) => {
     });
   }
 };
-// document.addEventListener("DOMContentLoaded", () => {
-//   OverlayScrollbars(document.getElementById("scrollableBody"), {
-//     className: "os-theme-dark",
-//     sizeAutoCapable: true,
-//     paddingAbsolute: true,
-//     scrollbars: {
-//       clickScrolling: true,
-//       autoHide: "leave",
-//       theme: "os-theme-dark",
-//       custom: {
-//         backgroundColor: "#555",
-//         borderRadius: "10px",
-//       },
-//     },
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const navItems = document.querySelectorAll(".nav-item");
+//   const mains = document.querySelectorAll("main");
+
+//   navItems.forEach((link) => {
+//     link.addEventListener("click", function () {
+//       const targetId = link.getAttribute("data-target");
+//       const targetMain = document.getElementById(targetId);
+//       window.scrollTo({
+//         top: targetMain.offsetTop,
+//         behavior: "smooth",
+//       });
+//     });
 //   });
 // });
-// console.log(typeof OverlayScrollbars); // باید "function" برگرداند
+// console.log(window);

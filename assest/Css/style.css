@@ -455,6 +455,11 @@ body {
   align-items: center;
   column-gap: 140px;
   font-size: 20px;
+  position: absolute;
+  top: 70px;
+}
+.travel {
+  width: 140px;
 }
 .other h6 {
   color: gray;
@@ -467,6 +472,7 @@ body {
   display: grid;
   row-gap: 20px;
 }
+
 .icons {
   position: absolute;
   bottom: 80px;
@@ -491,6 +497,7 @@ body {
   bottom: 20px;
   cursor: pointer;
   transition: all 0.3s;
+  border-radius: 5px;
 }
 .top-button:hover {
   transform: scale(1.1);

@@ -13,7 +13,7 @@
     </div>
     <div class="home-shadow"></div>
 
-    <div class="header">
+    <main class="header">
       <div class="navigation">
         <a href="#" class="nav-logo" id="button">Travel</a>
         <div class="nav-menu">
@@ -21,6 +21,7 @@
             <li class="nav-list">
               <a
                 onclick="scrollToSection('first-pg')"
+                data-target="first-pg"
                 class="nav-item underline"
                 data-filter="home"
                 >Home</a
@@ -29,6 +30,7 @@
             <li class="nav-list">
               <a
                 onclick="scrollToSection('about')"
+                data-target="about"
                 class="nav-item"
                 data-filter="about"
                 >About</a
@@ -37,6 +39,7 @@
             <li class="nav-list">
               <a
                 onclick="scrollToSection('popular')"
+                data-target="popular"
                 class="nav-item"
                 data-filter="popular"
                 >Popular</a
@@ -45,6 +48,7 @@
             <li class="nav-list">
               <a
                 onclick="scrollToSection('explore')"
+                data-target="explore"
                 class="nav-item"
                 data-filter="explore"
                 >Explore</a
@@ -53,7 +57,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </main>
 
     <main class="container">
       <div class="section1">
@@ -178,11 +182,12 @@
     </main>
     <footer class="last-part">
       <div class="text-part6">
-        <div class="travel">
-          <h3>Travel</h3>
-          <h6>Travel with us and explore the world without limits</h6>
-        </div>
         <div class="other">
+          <div class="travel">
+            <h3>Travel</h3>
+            <h6>Travel with us and explore</h6>
+            <h6>the world without limits</h6>
+          </div>
           <div class="About">
             <h3>About</h3>
             <h6>About</h6>
