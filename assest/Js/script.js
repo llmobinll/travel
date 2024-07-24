@@ -1,6 +1,7 @@
 const header = document.querySelector(".header");
 const navbutton = document.querySelectorAll(".nav-item");
 const slides = document.querySelectorAll(".slide");
+const about = document.getElementById("about");
 const scrollHeader = () => {
   if (this.scrollY >= 100) header.classList.add("scroll-header");
   else header.classList.remove("scroll-header");
@@ -53,20 +54,5 @@ const scrollToSection = (sectionId) => {
     });
   }
 };
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const navItems = document.querySelectorAll(".nav-item");
-//   const mains = document.querySelectorAll("main");
-
-//   navItems.forEach((link) => {
-//     link.addEventListener("click", function () {
-//       const targetId = link.getAttribute("data-target");
-//       const targetMain = document.getElementById(targetId);
-//       window.scrollTo({
-//         top: targetMain.offsetTop,
-//         behavior: "smooth",
-//       });
-//     });
-//   });
-// });
-// console.log(window);
+const height = about.offsetHeight;
+console.log(height);
